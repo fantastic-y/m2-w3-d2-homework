@@ -1,0 +1,330 @@
+#home {
+    background: no-repeat white url(image/cliff_ocean.jpg);
+    background-size: contain;
+}
+#activities {
+    background: no-repeat white url(image/runfly.jpeg);
+    background-size: contain;
+}
+#contact {
+    background: no-repeat white url(image/cliff_rock.jpeg);
+    background-size: contain;
+}
+#cliffs {
+    background: no-repeat white url(image/forest_cliff.jpeg);
+    background-size: contain;
+}
+header {
+    width: 100%;
+    min-height: 275px;
+}
+.main-header {
+    background-color: rgba(38,41,61,0.7);
+    width: 700px;
+    margin: 2em auto 0 auto;
+    min-height: 100px;
+    height: 100px;
+}
+.main-header .logo img {
+    width: 100px;
+    height: 100px;
+    margin: 0 2em 0 0;
+    float: left;
+}
+/* Navigation */
+.main-menu {
+    padding: 0;
+    padding-left: 1rem;
+    font-weight: 400;
+}
+.main-menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-left: 1px solid rgba(202, 204, 202, 0.6);
+    line-height: 100px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.main-menu ul li a {
+    text-decoration: none;
+    color: #888;
+}
+.main-menu ul li a:hover {
+    color: #9ed034;
+}
+.main-menu ul li.active {
+    background: #9ed034;
+    border: none;
+}
+.main-menu ul li.active a {
+    color: #fff;
+}
+.navbar{
+    height: 100px;
+}
+/* Main */
+main {
+    padding: 3em 6em 3em 5.5em;
+    margin: 2em 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.main-heading {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9ed034;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+main h1 {
+    font-size: 2.5em;
+    padding-bottom: 0.5em;
+    color: #9ed034;
+    text-align: center;
+}
+main h2 {
+    font-size: 1.7em;
+}
+.grid_system div[class^="col"] {
+    border: 1px solid lightgrey;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+/* Partners */
+section {
+    width: 100%;
+    background-color: #4288C3;
+}
+section #partners {
+    padding: 2em 0 2em 0;
+    margin: 0 auto;
+    text-align: center;
+}
+section #partners .partner {
+    display: inline-block;
+    margin: 0.5em;
+    padding: 1.3em 1.5em;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 120px;
+}
+section #partners .partner img {
+    width: 90px;
+    height: 90px;
+}
+/* Footer */
+footer {
+    width: 100%;
+    height: 155px;
+    padding-bottom: lem;
+    background-color: #ecfab8;
+}
+footer #nondiclaimer .copy {
+    padding: 3.5em 3.5em 3.5em 13em;
+    float: left;
+    font-size: 0.9em;
+}
+footer #nondisclaimer .social {
+    padding: 2.5em;
+    margin-right: 9.25em;
+    float: right;
+}
+footer #disclaimer {
+    clear: both;
+}
+footer #disclaimer p {
+    font-size: 0.85em;
+    text-align: center;
+}
+footer #nondisclaimer .social .fa {
+    padding: 15px;
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 4px;
+    border-radius: 50%;
+}
+footer #nondisclaimer .social .fa:hover {
+    opacity: 0.7;
+}
+footer #nondisclaimer .social .fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+footer #nondisclaimer .social .fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+footer #nondisclaimer .social .fa-instagram {
+    background: #125688;
+    color: white;
+}
+/* activities */
+#activities table {
+    width: 1000px;
+    margin: 4em auto 0 auto;
+}
+#activities caption {
+    background: #853b18;
+    height: 40px;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-top: 1em;
+}
+#activities thead {
+    background: #bde1ff;
+}
+#activities tbody {
+    background: #eeffe6;
+    text-align: center;
+}
+#activities th, #activities td {
+    width: 225px;
+    height: 75px;
+    vertical-align: middle;
+    border: solid 1px #852b1b;
+}
+#activities th:first-child {
+    width: 125px;
+    height: 50px;
+    background: #4977d1;
+    color: #fff;
+}
+#activities td:first-child {
+    font-weight: bold;
+    background: #bde1ff;
+}
+#activities td:not(:first-child):hover {
+    cursor: pointer;
+}
+#activities main #displaySelected {
+    visibility: hidden;
+    margin: 0 auto;
+    width: 600px;
+    border: 2px solid #9ed034;
+    padding: 0.75em;
+}
+#acitivities main #displaySelected #result, #activities main #displaySelected #sendinfo {
+    display: inline-block;
+    margin: 0;
+}
+#activities main #result {
+    min-height: 50px;
+    width: 300px;
+    padding: 0;
+}
+#activities main #result h4 {
+    margin-bottom: 1em;
+    font-size: 1.15em;
+}
+#activities main #displaySelected #sendinfo input[type="email"] {
+    width: 200px;
+}
+
+.redtest {color: red;}
+.selected {
+    color:white;
+    font-weight: bold;
+    background-color: yellowgreen;
+}
+/* cliffs */
+#cliffs h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9ed034;
+    width: 1200px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+#cliffs p{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1200px;
+    padding: 2% 0% 1% 0%;
+    margin: 0 30px;
+}
+
+.cliffimg {
+    background: none;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cliffimg .site {
+    width: 45%;
+    display: inline-block;
+    margin: 2.5em 1.2em 0 1.2em;
+}
+
+.cliffimg .site h3 {
+    background: #852B1B;
+    height: 2em;
+    color: #fff;
+    text-align: center;
+    padding-top: 0.55em;
+    margin: 0;
+}
+
+.cliffimg .site img {
+    width: 100%;
+    height: auto;
+}
+
+/* contact styling */
+#contact h1 {
+    padding-bottom: 0.5em;
+    color: #9ed034;
+}
+#contact .contactinfo, p {
+    padding-bottom: 1em;
+}
+#contact .contactinfo span:first-child{
+    font-weight: bold;
+}
+#submit {
+    width: 100px;
+    height: 45px;
+    margin-left: 830px;
+}
+/*js*/
+#timeofday {
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    background-image: linear-gradient(0deg, rgba(251, 215, 139,1) 0%, rgba(118, 213, 245, 1) 100%);
+}
+#timeofday span {
+    color: #125688;
+}
+#timeofday span:first-child {
+    color:#3a3a3a
+}
+.randomcode {
+    width: 50%;
+    text-align: right;
+    margin-left: 550px;
+}
+.randomcode input {
+    height: 30px;
+    margin-top: 20px;
+}
+.randomcode p {
+    float: right;
+    background-color: lightgrey;
+    width: fit-content;
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 170px;
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+      .navbar-collapse {
+        background-color: rgba(38,41,61,0.7);
+        width: 100%;
+    }
+}
