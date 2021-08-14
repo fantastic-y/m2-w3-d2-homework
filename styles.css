@@ -163,19 +163,22 @@ footer #nondisclaimer .social .fa-instagram {
 }
 /* activities */
 #activities table {
-    width: 1000px;
+    width: auto;
     margin: 4em auto 0 auto;
 }
 #activities caption {
     background: #853b18;
-    height: 40px;
+    height: 60px;
     color: #fff;
     font-size: 1.3em;
     font-weight: bold;
     padding-top: 1em;
+    caption-side: top;
+    text-align: center;
 }
 #activities thead {
     background: #bde1ff;
+    text-align: center;
 }
 #activities tbody {
     background: #eeffe6;
@@ -200,6 +203,18 @@ footer #nondisclaimer .social .fa-instagram {
 #activities td:not(:first-child):hover {
     cursor: pointer;
 }
+.modal-body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.modal-footer {
+    margin-left: 230px;
+    margin-bottom: 20px;
+}
+.tdclick {
+    background: #9ed034;
+    color: white;
+}
+/*
 #activities main #displaySelected {
     visibility: hidden;
     margin: 0 auto;
@@ -222,7 +237,7 @@ footer #nondisclaimer .social .fa-instagram {
 }
 #activities main #displaySelected #sendinfo input[type="email"] {
     width: 200px;
-}
+}*/
 
 .redtest {color: red;}
 .selected {
